@@ -148,3 +148,142 @@ Your README must include:
     * Links to the final notebook and presentation
        * As a reminder, the Markdown notation for a link is `[link text](/path/to/file)`
     * Reproduction instructions (or a link to them)
+
+## Grading
+
+***To pass this project, you must pass each rubric objective.*** The project rubric objectives for Capstone are:
+
+1. Attention to Detail
+2. Project Motivation
+3. Independent Learning
+4. Reproducibility
+
+### Attention to Detail
+
+Once again, the Attention to Detail standard has increased. ***In Capstone, you need to complete 100% (10 out of 10) or more of the checklist elements in order to pass the Attention to Detail objective.***
+
+**NOTE THAT THE PASSING BAR IS HIGHER IN CAPSTONE THAN IT WAS IN PHASE 4!**
+
+#### Exceeds Objective
+
+In addition to completing 100% of the checklist items, goes above and beyond to create a compelling, accessible repository
+
+> Some things to consider doing are running a spell-checker to ensure you don't have typos, adding a description to the repository, using Markdown extensively in the README to create a skim-able document, etc.
+
+> You can also look at the [GitHub tips for post-graduation](https://docs.google.com/document/d/1cT13597jlbiVgKUFyhGC7_QFUrLQUfZViRu8kD_ErAA/edit?usp=sharing) doc (which your career coach will be sending you soon!) to find more examples of enhancements
+
+#### Meets Objective (Passing Bar)
+
+100% of the project checklist items are complete
+
+#### Approaching Objective
+
+90% of the project checklist items are complete
+
+#### Does Not Meet Objective
+
+80% of the project checklist items are complete
+
+### Project Motivation
+
+The passing bar for this element will be communicated in the **elevator pitch** portion of the README, immediately after the project title. The elevator pitch should:
+
+* Describe the **data** used in the model
+   * This does *not* mean that you should list out every single column name and data type. Instead, describe the data generally.
+* Identify the **target**
+   * What are you predicting?
+* Communicate the **rationale** for predicting this target with this data
+   * This can be very brief. The goal is to avoid a "so what?" response
+* Evaluate the final model's **performance**
+
+Here are some examples of elevator pitches, which include all of the required elements:
+
+> Searching for skincare products can be overwhelming, since there are so many options and skincare needs vary so much from person to person.  This project uses product and review data scraped from SkinStore.com to make personalized recommendations to a new user based on their skin type, skin problems, and the types of products they're looking for. Using the `surprise` Python package, the final machine learning model has an RMSE of 0.96, meaning that it is able to predict the star rating (out of 5) within 1 star for a given product and user.
+
+> Taxi drivers in New York City have the flexibility to choose when and where to start their workdays, but the best time and location varies. This project uses data about taxi trips from the NYC Open Data portal as well as weather and CitiBike data to forecast demand for taxi pickups across different neighborhoods. The model is able to explain about 70% of the variance in demand and would be especially useful for a taxi company to orchestrate their distribution of resources.
+
+**Note:** There is NO threshold for model performance you are required to meet. So long as you explain what you tried and properly evaluate the outcome, it's fine to have a model with poor performance. We recognize that your time is limited during Capstone and we want you to focus more on the process and communication, not worrying about model performance.
+
+#### Exceeds Objective
+
+Weaves a clear narrative throughout the project explaining the scope, methods, and specific use cases for the final model
+
+#### Meets Objective (Passing Bar)
+
+Describes data, identifies a target, and communicates the rationale for predicting the target with this data and an evaluation of the final model's performance
+
+#### Approaching Objective
+
+Does not adequately explain why these features allow you to predict this target, why this target is useful to predict, or how well the project performs
+
+#### Does Not Meet Objective
+
+Does not include an elevator pitch
+
+### Independent Learning
+
+Learning the specific content we teach in the Flatiron School Data Science program is important, but learning how to learn is even more important! This objective is asking you to flex that skill.
+
+The baseline requirement is that you do some domain research, rather than just diving into the dataset. Sometimes a clear understanding of the domain will help you collect a key feature or perform a key preprocessing step that will massively improve your model performance. Work smarter, not harder!
+
+#### Exceeds Objective
+
+Demonstrates a "deep dive" beyond the course content of the DS program, such as extensive domain knowledge or extensively using additional Python packages
+
+> Ideally, your notebook would teach your *instructor* something new about a domain or a technique!
+
+#### Meets Objective (Passing Bar)
+
+Cites at least one external source to demonstrate domain understanding of the project topic
+
+> The source is up to you. It can be an academic whitepaper, an industry publication, a newspaper article, or even just the Wikipedia page on a topic.
+
+#### Approaching Objective
+
+Cites at least one source, but it is not related to domain understanding or not incorporated into the project
+
+> For example, if you cite a blog post or StackOverflow comment because you reused their code snippet, that is not a sufficient citation. You need to cite something that demonstrates domain understanding and is used in some way to direct your decision-making.
+
+#### Does Not Meet Objective
+
+Does not cite any external sources
+
+### Reproducibility
+
+While you may explore additional forms of *deployment* such as creating an API or web app, the main way that Flatiron School DS projects are deployed is through a reproducible notebook on GitHub.
+
+The explanation of how to reproduce your analysis can either be directly in your README in the Repository Navigation section, or you can create a separate Markdown file and link it in the README.
+
+Be sure to describe the operating system used (including cloud systems such as Kaggle or Google Colab), the packages, and how to get the data.
+
+#### Exceeds Objective
+
+Writes a script so that reproducing the project is seamless on a designated platform
+
+> This can be a Python script or a terminal script. It might involve downloading images and moving them into subfolders, installing packages with `conda` or `pip`, etc.
+
+#### Meets Objective (Passing Bar)
+
+Incorporates the basic elements of a reproducible project: a description of software used + how to get the data
+
+> Ideally you would list the specific versions of packages used through an `environment.yml` or `requirements.txt` file. If you are using a platform like Kaggle, describe the additional `pip install` commands required beyond the base Kaggle environment.
+
+> If your data is proprietary or otherwise not accessible to someone trying to reproduce your analysis, make sure you explain this clearly. If possible, include a sample or anonymized version of the data in the repo.
+
+#### Approaching Objective
+
+Attempts to describe how to reproduce the project, but elements are missing or not understandable
+
+#### Does Not Meet Objective
+
+Does not describe how to reproduce the project
+
+## Getting Started
+
+Please start by reviewing the contents of this project description. If you have any questions, please ask your instructor ASAP.
+
+To get started with project development, create a new repository on GitHub. For this project, we recommend that you do not fork the template repository, but rather that you make a new repository from scratch, starting by going to [github.com/new](https://github.com/new).
+
+## Summary
+
+This is your final project in the DS program, the "crown jewel" of your portfolio. Let's do this!
