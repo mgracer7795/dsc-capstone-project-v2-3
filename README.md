@@ -108,7 +108,7 @@ As a reminder, a professional GitHub repository has:
 
 The README is the "home page" of your Capstone project. Other than the *Attention to Detail* objective, all rubric objectives for this project will focus on the README.
 
-Your README must include:
+Ideally, your README should include:
 
 1. A **project title**
     * Choose a title that reflects the project domain and presents you as a data scientist, not as a student. The title should not include words like "capstone" or "school"
@@ -148,6 +148,8 @@ Your README must include:
     * Links to the final notebook and presentation
        * As a reminder, the Markdown notation for a link is `[link text](/path/to/file)`
     * Reproduction instructions (or a link to them)
+
+Of the items listed above, items 2 and 7 are particularly relevant for grading, as described below.
 
 ## Grading
 
