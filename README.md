@@ -149,7 +149,7 @@ Ideally, your README should include:
        * As a reminder, the Markdown notation for a link is `[link text](/path/to/file)`
     * Reproduction instructions (or a link to them)
 
-Of the items listed above, items 2 and 7 are particularly relevant for grading, as described below.
+The best practice would be to include all of the items listed above in your README. Items 2 and 7 are particularly relevant for grading, as described below.
 
 ## Grading
 
