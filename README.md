@@ -15,7 +15,7 @@ For the Capstone project, you will engage in one more **supervised machine learn
 
 ### Business Problem and Data
 
-You are responsible for identifying an appropriate business problem and dataset. You need to be able to complete all elements of the checklist, which means that **you must utilize supervised machine learning**. Other components like unsupervised learning and data dashboards may be part of the overall process but are not sufficient to pass this project.
+You are responsible for identifying an appropriate business problem and dataset. Be sure that you choose a dataset that is publicly available to ensure that you are not sharing any sensitive information. You need to be able to complete all elements of the checklist, which means that **you must utilize supervised machine learning**. Other components like unsupervised learning and data dashboards may be part of the overall process but are not sufficient to pass this project.
 
 In other words, you need to find a business problem where you can frame the question as:
 
@@ -47,7 +47,7 @@ At this point, the project deliverables should be familiar:
 * A **Jupyter Notebook**
 * A **GitHub repository**
 
-The checklist of requirements is the same as it was in Phase 3 and Phase 3.
+The checklist of requirements is the same as it was in Phase 3 and Phase 4.
 
 ### Non-Technical Presentation
 
